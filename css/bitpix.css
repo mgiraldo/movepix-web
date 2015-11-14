@@ -1,0 +1,215 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end reset */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	background: #00ffff url(../images/multinube.png);
+}
+a {
+	color: #f00;
+}
+.spacer {
+	clear: both;
+}
+#wrapper {
+	width: 960px;
+	margin-top: 5%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 80px;
+}
+#left {
+	width: 275px;
+	float: left;
+	text-align: right;
+	position: relative;
+}
+#airplane {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#logo {
+	background: url(../images/bitpix.png);
+	margin-bottom: 60px;
+	height: 79px;
+	width: 254px;
+	float: right;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-top: 120px;
+}
+#blurb {
+	font-size: 16px;
+	float: right;
+	width: 200px;
+	margin-bottom: 40px;
+}
+#appstore {
+	float: right;
+	width: 170px;
+}
+
+#appstore a {
+	background: url(../images/appstore.png) no-repeat;
+	display: block;
+	height: 65px;
+	width: 170px;
+	border-style: none;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#appstore a:hover {
+	background-position: 0 -65px;
+}
+#main {
+	width: 410px;
+	float: left;
+}
+#iphone {
+	background: url(../images/iphone.png) no-repeat;
+	height: 698px;
+	width: 370px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+#slideshow {
+	height: 320px;
+	width: 480px;
+	top: 107px;
+	left: 25px;
+	position: absolute;
+}
+#slideshow img {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+}
+#slideshow img.active {
+    z-index:10;
+}
+#slideshow img.last-active {
+    z-index:9;
+}
+#copyright {
+	margin: 10px;
+	font-size: 16px;
+	text-align: center;
+}
+#right {
+	float: right;
+	width: 275px;
+	margin-top: 50px;
+}
+#social {
+	background: url(../images/socialnetworks.png) no-repeat;
+	width: 135px;
+	height: 155px;
+	margin-left: -8px;
+}
+#social ul {
+	padding: 10px;
+}
+#social ul li {
+	font-size: 16px;
+	margin-bottom: 16px;
+	text-transform: uppercase;
+}
+#social ul li a {
+	color: #FFF;
+}
+#social ul li a:hover {
+	color: #0FF;
+}
+#slogan {
+	font-size: 32px;
+	color: #F00;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 200px;
+}
+#colors {
+	font-size: 32px;
+}
+#colors .c {
+	color: #FF0;
+}
+#colors .o {
+	color: #F0F;
+}
+#colors .l {
+	color: #0C0;
+}
+#colors .r {
+	color: #F00;
+}
+#colors .s {
+	color: #FFF;
+}
+#size span {
+	margin-bottom: 20px;
+}
+#size .big {
+	font-size: 32px;
+}
+#size .bigger {
+	font-size: 32px;
+}
+#size .biggest {
+	font-size: 48px;
+}
