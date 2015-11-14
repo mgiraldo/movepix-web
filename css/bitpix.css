@@ -94,6 +94,8 @@ strong {
 	white-space: nowrap;
 	overflow: hidden;
 	/*margin-top: 120px;*/
+	margin-left: auto;
+	margin-right: auto;
 }
 #blurb {
 	font-size: 16px;
