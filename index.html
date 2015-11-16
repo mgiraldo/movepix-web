@@ -32,14 +32,6 @@ $(function () {
   ga('create', 'UA-317070-12', 'auto');
   ga('send', 'pageview');
 
-var trackOutboundLink = function(url) {
-   ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
-     function () {
-     document.location = url;
-     }
-   });
-}
-
 </script>
 </head>
 
@@ -65,7 +57,7 @@ var trackOutboundLink = function(url) {
 			<li><strong>Export as SVG</strong> frames that you can open in vector editing software such as Adobe Illustrator or Sketch.</li>
 			<li><strong>Backup and restore</strong> functionality so your creations are always under your control.</li>
 		</ul>
-		<div id="appstore"><a href="https://itunes.apple.com/us/app/movepix/id1052532935?ls=1&amp;mt=8" title="Click to view MovePix in the App Store" onclick="trackOutboundLink('https://itunes.apple.com/us/app/movepix/id1052532935?ls=1&amp;mt=8'); return false;">Buy now in the App Store!</a></div>
+		<div id="appstore"><a href="https://itunes.apple.com/us/app/movepix/id1052532935?ls=1&amp;mt=8" title="Click to view MovePix in the App Store">Buy now in the App Store!</a></div>
 	</div>
 	<div class="spacer"></div>
 	<div id="copyright">&copy; 2015 ping pong estudio / mauricio giraldo arteaga<br /><br /><a href="//twitter.com/movepixapp">@movepixapp</a></div>
